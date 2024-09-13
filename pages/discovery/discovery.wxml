@@ -53,12 +53,12 @@
     </block>
   </view>
   <view class="ctnt1 placehold" hidden="{{currentNavtab==1 ? '' : true}}">
-    <text>圆桌</text>
+    <text>设计思想内容</text>
   </view>
   <view class="ctnt2 placehold" hidden="{{currentNavtab==2 ? '' : true}}">
-    <text>热门</text>
+    <text>设计模式内容</text>
   </view>
   <view class="ctnt3 placehold" hidden="{{currentNavtab==3 ? '' : true}}">
-    <text>收藏</text>
+    <text>项目介绍内容</text>
   </view>
 </scroll-view>
