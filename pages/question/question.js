@@ -8,13 +8,8 @@ Page({
     userInfo: {}
   },
   //事件处理函数
-  bindItemTap: function() {
-    wx.navigateTo({
-      url: '../answer/answer'
-    })
-  },
-  onLoad: function () {
-    console.log('onLoad')
+  onLoad: function (e) {
+    console.log('onLoad='+e)
     var that = this
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function(userInfo){

@@ -7,7 +7,6 @@
                 <text class="tag">架构设计</text>
             </view>
             <view class="que-title">
-                常见问题？
             </view>
             <view class="que-content">
                 <view> UJava是什么？</view>
@@ -16,6 +15,29 @@
                 <view> 支持！推荐 RSSopen in new window 订阅本站获取最新更新。</view>
             </view>
         </view>
+    </view>
+    <view class="answer-feed">
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="../../images/favicon.jpg"></image>
+                    </view>
+                    <text>UJava</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">{{answer_ctnt}}</text>
+                    </view>
+
+                </view>
+            </view>
+        </view>
+
+
+
     </view>
 </view>
 
