@@ -5,9 +5,8 @@ Page({
     navTab: ["快速上手", "设计思想", "设计模式", "项目介绍"],
     currentNavtab: "0",
     imgUrls: [
-      '../../images/24213.jpg',
-      '../../images/24280.jpg',
-      '../../images/1444983318907-_DSC1826.jpg'
+      '../../images/gzh-wz.png',
+      '../../images/gzh.png',
     ],
     indicatorDots: false,
     autoplay: true,
@@ -66,7 +65,7 @@ Page({
         });
   },
 
-  //使用本地 fake 数据实现刷新效果
+  //使用数据实现刷新效果
   refresh: function(){
     var feed = util.getDiscovery();
     console.log("loaddata");
@@ -77,7 +76,7 @@ Page({
     });
   },
 
-  //使用本地 fake 数据实现继续加载效果
+  //使用数据实现继续加载效果
   nextLoad: function(){
     var next = util.discoveryNext();
     console.log("continueload");

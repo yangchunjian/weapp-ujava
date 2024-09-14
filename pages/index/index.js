@@ -52,7 +52,7 @@ Page({
         });
   },
 
-  //使用本地 fake 数据实现刷新效果
+  //使用数据实现刷新效果
   getData: function(){
     var feed = util.getData2();
     console.log("loaddata");
@@ -85,7 +85,7 @@ Page({
 
   },
 
-  //使用本地 fake 数据实现继续加载效果
+  //使用数据实现继续加载效果
   nextLoad: function(){
     wx.showToast({
       title: '加载中',
