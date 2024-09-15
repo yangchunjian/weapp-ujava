@@ -13,7 +13,7 @@
     <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
         <view class="feed-item">
             <view class="feed-source">
-                <a class="">
+                <a class="" href="https://ujava.cn">
                     <view class="avatar">
                         <image src="{{item.feed_source_img}}"></image>
                     </view>
