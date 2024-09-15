@@ -10,9 +10,12 @@ Page({
         feed_length: 0
     },
     //事件处理函数
-    bindQueTap: function () {
+    bindQueTap: function (e) {
+        var b =e;
+        console.log("b =" +b);
+        var id = e.currentTarget.dataset.id
         wx.navigateTo({
-            url: '../question/question'
+            url: '../question/question?id='+id
         })
     },
     onLoad: function () {
@@ -65,7 +68,7 @@ Page({
 
         var feed = util.getSearch();
         console.log("loaddata");
-        var feed_data = feed.data.filter(data => data.question.toLowerCase().indexOf(val.toLowerCase()) >= 0 || data.answer_ctnt.toLowerCase().indexOf(val.toLowerCase()) >= 0);
+        var feed_data = feed.data.filter(data => data.question.toLowerCase().indexOf(val.toLowerCase()) >= 0 || data.digest.toLowerCase().indexOf(val.toLowerCase()) >= 0);
         this.setData({
             feed: feed_data,
             feed_length: feed_data.length
@@ -104,7 +107,7 @@ Page({
         var feed = util.getSearch();
         var feed_data = feed.data;
         if(undefined != val && "" != val){
-            feed_data = feed.data.filter(data => data.question.toLowerCase().indexOf(val.toLowerCase()) >= 0 || data.answer_ctnt.toLowerCase().indexOf(val.toLowerCase()) >= 0);
+            feed_data = feed.data.filter(data => data.question.toLowerCase().indexOf(val.toLowerCase()) >= 0 || data.digest.toLowerCase().indexOf(val.toLowerCase()) >= 0);
         }
         console.log("refresh");
         var feed_data = feed_data;

@@ -27,11 +27,6 @@ Page({
     });
   },
 
-  bindQueTap: function() {
-    wx.navigateTo({
-      url: '../question/question'
-    })
-  },
   upper: function () {
     wx.showNavigationBarLoading()
     this.refresh();

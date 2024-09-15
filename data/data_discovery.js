@@ -9,19 +9,17 @@ var discovery= {
         {
             "question_id": 1,
             "feed_source_name": "UJava",
-            "feed_source_txt": "",
             "feed_source_img": "../../images/favicon.jpg",
             "question": "常见问题",
-            "answer_ctnt": "UJava是什么？",
+            "digest": "UJava是什么？",
 
         },
         {
             "question_id": 2,
             "feed_source_name": "UJava",
-            "feed_source_txt": "",
             "feed_source_img": "../../images/favicon.jpg",
             "question": "网站历史",
-            "answer_ctnt": "架构内容持续更新，点击查看历史~",
+            "digest": "架构内容持续更新，点击查看历史~",
 
         }
     ]
