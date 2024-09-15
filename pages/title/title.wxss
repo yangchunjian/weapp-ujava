@@ -6,19 +6,19 @@
     background: #F0F4F3;
     color: #000;
 }
-.question-wrp{
+.title-wrp{
     border-radius: 3px;
     box-shadow: 0 1px 2px #bebebe;
 }
-.question-item{
+.title-item{
     width: 710rpx;
     padding: 40rpx 20rpx 10rpx;
     background: #fff;
 }
-.question-item .que-tag{
+.title-item .que-tag{
 
 }
-.question-item .que-tag .tag{
+.title-item .que-tag .tag{
     height: 28rpx;
     padding: 15rpx 20rpx;
     border-radius: 28rpx;
@@ -28,41 +28,41 @@
     font-size: 28rpx;
     vertical-align: middle;
 }
-.question-item .que-title{
+.title-item .que-title{
     padding: 40rpx 20rpx 30rpx;
     font-size: 38rpx;
 }
-.question-item .que-content{
+.title-item .que-content{
     padding: 0 20rpx;
     font-size: 26rpx;
 }
-.question-item .que-follow{
+.title-item .que-follow{
     margin: 20rpx;
     height: 68rpx;
 }
-.question-item .que-follow view{
+.title-item .que-follow view{
     display: inline-block;
     margin: 0 40rpx 0 0;
 }
 
-.question-item .que-follow image{
+.title-item .que-follow image{
     width: 50rpx;
     height: 50rpx;
     margin: 0 10rpx 0 0;
     vertical-align: middle;
 }
-.question-item .que-follow .left{
+.title-item .que-follow .left{
     float: left;
     padding: 10rpx 0;
 }
-.question-item .que-follow .left text{
+.title-item .que-follow .left text{
     color: #AFAFAF;
     height: 50rpx;
     vertical-align: middle;
     padding: 18rpx 0;
     font-size: 24rpx;
 }
-.question-item .que-follow .right{
+.title-item .que-follow .right{
     float: right;
     padding: 20rpx 55rpx;
     color: #ffffff;
@@ -143,7 +143,7 @@
 /*.answer-feed .feed-item .feed-content{*/
     /*padding: 10rpx 0 0 0;*/
 /*}*/
-/*.answer-feed .feed-item .feed-content .question text{*/
+/*.answer-feed .feed-item .feed-content .title text{*/
     /*font-size: 28rpx;*/
     /*font-weight: 600px;*/
     /*line-height: 40rpx;*/

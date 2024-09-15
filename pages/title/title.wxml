@@ -1,7 +1,7 @@
-<!--question.wxml-->
+<!--title.wxml-->
 <view class="container">
-    <view class="question-wrp">
-        <view class="question-item">
+    <view class="title-wrp">
+        <view class="title-item">
             <view class="que-tag">
                 <text class="tag">Java</text>
                 <text class="tag">架构设计</text>

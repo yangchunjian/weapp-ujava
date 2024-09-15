@@ -14,8 +14,9 @@ Page({
         var b =e;
         console.log("b =" +b);
         var id = e.currentTarget.dataset.id
+        var title = e.currentTarget.dataset.title
         wx.navigateTo({
-            url: '../question/question?id='+id
+            url: '../title/title?id='+id+"&title="+title
         })
     },
     onLoad: function () {
@@ -68,7 +69,7 @@ Page({
 
         var feed = util.getSearch();
         console.log("loaddata");
-        var feed_data = feed.data.filter(data => data.question.toLowerCase().indexOf(val.toLowerCase()) >= 0 || data.digest.toLowerCase().indexOf(val.toLowerCase()) >= 0);
+        var feed_data = feed.data.filter(data => data.title.toLowerCase().indexOf(val.toLowerCase()) >= 0 || data.digest.toLowerCase().indexOf(val.toLowerCase()) >= 0);
         this.setData({
             feed: feed_data,
             feed_length: feed_data.length
@@ -107,7 +108,7 @@ Page({
         var feed = util.getSearch();
         var feed_data = feed.data;
         if(undefined != val && "" != val){
-            feed_data = feed.data.filter(data => data.question.toLowerCase().indexOf(val.toLowerCase()) >= 0 || data.digest.toLowerCase().indexOf(val.toLowerCase()) >= 0);
+            feed_data = feed.data.filter(data => data.title.toLowerCase().indexOf(val.toLowerCase()) >= 0 || data.digest.toLowerCase().indexOf(val.toLowerCase()) >= 0);
         }
         console.log("refresh");
         var feed_data = feed_data;

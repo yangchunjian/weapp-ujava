@@ -98,7 +98,7 @@
 .container .feed-item .feed-content{
   padding: 10rpx 0 0 0;
 }
-.container .feed-item .feed-content .question text{
+.container .feed-item .feed-content .title text{
   font-size: 28rpx;
   font-weight: 600px;
   line-height: 40rpx;
