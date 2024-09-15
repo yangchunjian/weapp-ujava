@@ -10,7 +10,7 @@
                 {{title}}
             </view>
             <view class="que-content">
-                {{detail}}
+                <text>{{detail}}</text>
             </view>
         </view>
     </view>

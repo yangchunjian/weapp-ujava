@@ -91,7 +91,7 @@ var detail= {
     },
     {
       "title_id": 5,
-      "detail": "- [规范安全](https://ujava.cn/standard/noun.html)\n\r" +
+      "detail": "- [规范安全](https://ujava.cn/standard/noun.html)\n" +
           "    \n" +
           "- [规范编程](https://ujava.cn/standard/security.html)\n" +
           "    \n" +
