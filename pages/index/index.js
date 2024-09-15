@@ -103,7 +103,7 @@ Page({
         var val = this.inputVal;
         var feed = util.getSearch();
         var feed_data = feed.data;
-        if('undefined'!=val && ''!=val){
+        if(undefined != val && "" != val){
             feed_data = feed.data.filter(data => data.question.toLowerCase().indexOf(val.toLowerCase()) >= 0 || data.answer_ctnt.toLowerCase().indexOf(val.toLowerCase()) >= 0);
         }
         console.log("refresh");
