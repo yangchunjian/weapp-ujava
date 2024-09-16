@@ -361,7 +361,8 @@ video {
 }
 
 image {
-    height:auto; vertical-align:middle;
+    height:auto;
+    /*vertical-align:middle;*/
 }
 
 video {
