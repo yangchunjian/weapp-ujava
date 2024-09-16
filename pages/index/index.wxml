@@ -15,9 +15,9 @@
             <view class="feed-source">
                 <a class="" href="https://ujava.cn">
                     <view class="avatar">
-                        <image src="{{item.feed_source_img}}"></image>
+                        <image src="{{item.title_author_img}}"></image>
                     </view>
-                    <text>{{item.feed_source_name}}</text>
+                    <text>{{item.title_author_name}}</text>
                 </a>
                 <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
             </view>
@@ -29,7 +29,7 @@
                 </view>
                 <view class="answer-body">
                     <view>
-                        <text class="answer-txt">{{item.digest}}</text>
+                        <text class="answer-txt">{{item.title_digest}}</text>
                     </view>
 
                 </view>

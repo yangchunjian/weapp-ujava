@@ -14,7 +14,11 @@ Page({
     interval: 5000,
     duration: 1000,
     feed: [],
-    feed_length: 0
+    feed_length: 0,
+    burgerId1_content: 1,
+    burgerId2_content: 2,
+    burgerId3_content: 3,
+    burgerId4_content: 4
   },
   onLoad: function () {
     console.log('onLoad')
@@ -55,12 +59,14 @@ Page({
 
   //使用数据实现刷新效果
   refresh: function(){
-    var feed = util.getBurger();
     console.log("refresh")
+    var feed = util.getBurger();
     var feed_data = feed.data;
     this.setData({
-      feed: app.towxml(feed_data,'markdown'),
-      feed_length: feed_data.length
+      burgerId1_content: app.towxml(feed_data[0].burger_content,'markdown'),
+      burgerId2_content: app.towxml(feed_data[1].burger_content,'markdown'),
+      burgerId3_content: app.towxml(feed_data[2].burger_content,'markdown'),
+      burgerId4_content: app.towxml(feed_data[3].burger_content,'markdown'),
     });
   },
 
