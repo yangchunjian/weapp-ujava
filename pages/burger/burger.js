@@ -1,5 +1,6 @@
-//discovery.js
+//burger.js
 var util = require('../../utils/util.js')
+var app = getApp()
 Page({
   data: {
     navTab: ["快速上手", "设计思想", "设计模式", "项目介绍"],
@@ -39,9 +40,6 @@ Page({
     setTimeout(function(){wx.hideNavigationBarLoading();that.nextLoad();}, 1000);
     console.log("lower")
   },
-  //scroll: function (e) {
-  //  console.log("scroll")
-  //},
 
   //网络请求数据, 实现刷新
   refresh0: function(){
@@ -57,18 +55,18 @@ Page({
 
   //使用数据实现刷新效果
   refresh: function(){
-    var feed = util.getDiscovery();
-    console.log("loaddata");
+    var feed = util.getBurger();
+    console.log("refresh")
     var feed_data = feed.data;
     this.setData({
-      feed:feed_data,
+      feed: app.towxml(feed_data,'markdown'),
       feed_length: feed_data.length
     });
   },
 
   //使用数据实现继续加载效果
   nextLoad: function(){
-    var next = util.discoveryNext();
+    var next = util.burgerNext();
     console.log("continueload");
     var next_data = next.data;
     this.setData({

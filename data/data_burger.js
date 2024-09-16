@@ -3,7 +3,7 @@ module.exports = {
 
 }
 
-var discovery= {
+var burger= {
     "id": 3,
     "data": [
         {
@@ -26,4 +26,4 @@ var discovery= {
 
 }
 
-module.exports.discovery = discovery;
+module.exports.burger = burger;

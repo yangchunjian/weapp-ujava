@@ -1,7 +1,7 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/discovery/discovery",
+    "pages/burger/burger",
     "pages/title/title"
   ],
   "window":{
@@ -22,10 +22,10 @@
       "iconPath": "images/index.png",
       "selectedIconPath": "images/index_focus.png"
     }, {
-      "pagePath": "pages/discovery/discovery",
+      "pagePath": "pages/burger/burger",
       "text": "",
-      "iconPath": "images/discovery.png",
-      "selectedIconPath": "images/discovery_focus.png"
+      "iconPath": "images/burger.png",
+      "selectedIconPath": "images/burger_focus.png"
     }
     
   ]

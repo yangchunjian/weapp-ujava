@@ -22,8 +22,8 @@ module.exports = {
 
 var index = require('../data/data_index.js')
 var index_next = require('../data/data_index_next.js')
-var discovery = require('../data/data_discovery.js')
-var discovery_next = require('../data/data_discovery_next.js')
+var burger = require('../data/data_burger.js')
+var burger_next = require('../data/data_burger_next.js')
 var detail = require('../data/data_detail.js')
 
 function getData(url){
@@ -54,12 +54,12 @@ function getNext(){
   return index_next.next;
 }
 
-function getDiscovery(){
-  return discovery.discovery;
+function getBurger(){
+  return burger.burger;
 }
 
-function discoveryNext(){
-  return discovery_next.next;
+function burgerNext(){
+  return burger_next.next;
 }
 
 function getDetail(){
@@ -70,8 +70,8 @@ function getDetail(){
 
 module.exports.getData = getData;
 module.exports.getNext = getNext;
-module.exports.getDiscovery = getDiscovery;
-module.exports.discoveryNext = discoveryNext;
+module.exports.getBurger = getBurger;
+module.exports.burgerNext = burgerNext;
 module.exports.getSearch = getSearch;
 module.exports.getDetail = getDetail;
 
