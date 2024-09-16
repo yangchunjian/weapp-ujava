@@ -10,7 +10,8 @@
                 {{title}}
             </view>
             <view class="que-content">
-                <text>{{detail}}</text>
+                <towxml nodes="{{detail || '暂无详情'}}"/>
+
             </view>
         </view>
     </view>

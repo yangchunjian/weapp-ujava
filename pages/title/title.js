@@ -13,9 +13,6 @@ Page({
   },
   //事件处理函数
   onLoad: function (e) {
-
-    console.log('onLoad='+e)
-    console.log('onLoad id='+e.id)
     this.title = e.title;
     this.getDetail(e.id,e.title)
   },
@@ -28,10 +25,9 @@ Page({
       console.log("result num < 1 is "+ feed_data.length)
       return
     }
-    console.log("getData");
     this.setData({
       title: title,
-      detail: feed_data[0].detail
+      detail: app.towxml(feed_data[0].detail,'markdown')
     });
   },
 
