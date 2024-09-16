@@ -1,0 +1,11 @@
+{
+	"ios": {
+		"name": "UJava"
+	},
+	"android": {
+		"name": "UJava"
+	},
+	"common": {
+		"name": "UJava"
+	}
+}
