@@ -84,7 +84,11 @@
       "NSSystemAdministrationUsageDescription": "当前应用程序需要进行系统管理操作，如需修改描述请前往「project.miniapp.json - 隐私信息访问许可描述」修改，并且关闭「自动使用默认描述补全默认隐私信息访问许可」",
       "NSPhotoLibraryAddUsageDescription": "应用程序在请求访问照片库，如需修改描述请前往「project.miniapp.json - 隐私信息访问许可描述」修改，并且关闭「自动使用默认描述补全默认隐私信息访问许可"
     },
-    "enableIpad": true
+    "enableIpad": true,
+    "buildArgs": {
+      "scheme": "UJava",
+      "exportOptionPlistPath": ""
+    }
   },
   "mini-plugin": {
     "android": [
