@@ -35,7 +35,7 @@
     }
   },
   "mini-ios": {
-    "sdkVersion": "1.4.9",
+    "sdkVersion": "1.4.10",
     "toolkitVersion": "",
     "useExtendedSdk": {
       "WeAppOpenFuns": true,
