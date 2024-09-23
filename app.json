@@ -29,7 +29,7 @@
       "selectedIconPath": "images/burger_focus.png"
     }, {
       "pagePath": "pages/ring/ring",
-      "text": "我的",
+      "text": "作者",
       "iconPath": "images/ring.png",
       "selectedIconPath": "images/ring_focus.png"
     }
