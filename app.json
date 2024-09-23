@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/burger/burger",
-    "pages/title/title"
+    "pages/title/title",
+    "pages/ring/ring"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -18,14 +19,19 @@
     "borderStyle": "white",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "",
+      "text": "主页",
       "iconPath": "images/index.png",
       "selectedIconPath": "images/index_focus.png"
     }, {
       "pagePath": "pages/burger/burger",
-      "text": "",
+      "text": "功能",
       "iconPath": "images/burger.png",
       "selectedIconPath": "images/burger_focus.png"
+    }, {
+      "pagePath": "pages/ring/ring",
+      "text": "我的",
+      "iconPath": "images/ring.png",
+      "selectedIconPath": "images/ring_focus.png"
     }
     
   ]
