@@ -1,11 +1,13 @@
 <view class="container more">
     <view class="user flex-wrp">
         <view class="avatar flex-item">
-            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+<!--            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>-->
+            <image class="userinfo-avatar" src="../../images/gzh.png" background-size="cover"></image>
         </view>
         <view class="user-info flex-item">
-            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-            <text class="edit">查看或编辑个人主页</text>
+            <text class="userinfo-nickname">UJava</text>
+<!--            <text class="userinfo-nickname">{{userInfo.nickName}}</text>-->
+            <text class="edit">架构设计</text>
         </view>
     </view>
 
@@ -15,10 +17,28 @@
                 <image src="../../images/eye.png"></image>
             </view>
             <view class="myitem-name flex-item">
-                <text>我的关注</text>
+                <text>打赏</text>
             </view>
+        </view>
+
+<!--        <view>-->
+<!--            <image src="../../images/ds_zfb.png"></image>-->
+<!--        </view>-->
+
+        <view class="my-item flex-wrp">
+            <view class="myitem-icon flex-item" >
+                <image src="../../images/eye.png"></image>
+            </view>
+            <view class="myitem-name flex-item">
+                <text>微信</text>
+
+            </view>
+
         </view>
 
 
     </view>
+<!--    <view>-->
+<!--        <image src="../../images/ds_wx.png"></image>-->
+<!--    </view>-->
 </view>
